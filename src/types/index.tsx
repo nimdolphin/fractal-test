@@ -1,3 +1,8 @@
+export enum SelectOption {
+  USER = "user",
+  REPO = "repo",
+}
+
 export interface IUser {
   login: string;
   name: string;
@@ -9,5 +14,3 @@ export interface IRepo {
   full_name: string;
   stargazers_count: number;
 }
-
-export type TSelectOption = "user" | "repo";
